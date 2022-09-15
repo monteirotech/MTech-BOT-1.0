@@ -1492,7 +1492,7 @@ rows: [
 {title: "BAIXAR APLICATIVO", rowId: `${prefix}baixarapp`, description: "Aplicativo de conexão"},
 {title: "FALAR COM O SUPORTE", rowId: `${prefix}suporte`, description: "Notificar o dono"}]
 }]
-sendlistA(from, "\r\n*BEM VINDO*", `*SEU USER:* ${pushname}\n\n*SEU NÚMERO:* ${sender.split("@")[0]}\n\nCompre a sua conta SSH com o menor preço do mercado, melhor qualidade e melhor suporte,confira nossos planos ou Faça um Teste Gratuito conosco .`, `${NomeDoBot}`, "MENU", botaoale)
+sendlistA(from, "\r\n*Olá, *Seu User:* ${pushname} seja bem-vindo (a) !*", `*Seu User:* ${pushname}\n\n*Seu Número:* ${sender.split("@")[0]}\n\nTEXTO DETALHES`, `${NomeDoBot}`, "Menu Principal", botaoale)
 break
 
 case 'compraracesso':
